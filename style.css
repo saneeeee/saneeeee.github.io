@@ -23,13 +23,26 @@
     margin: 30px;
     padding: 10px;
 }
+.item-title {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 h1 {
     font-size: 60px;
     font-weight: 100;
     border-bottom: 2px solid #eeeeee;
 }
+h2, h3{
+    margin-bottom: 5px;
+}
 b {
     font-weight: 200;
+}
+.position {
+    margin-top: 0;
+    font-style: italic;
 }
 .profile-image {
     max-width: 150px;
